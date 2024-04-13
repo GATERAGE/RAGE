@@ -1,5 +1,3 @@
-GPT
-
 MASTERMIND is an advanced reasoning and control system designed to orchestrate interactions between various components in an artificial intelligence framework. It is part of a larger system that includes capabilities for prediction, logic processing, non-monotonic reasoning, and dynamic learning. MASTERMIND integrates these functions to manage data processing, decision-making, and task execution, ensuring consistency and state management across the system.
 
 The key functionalities of MASTERMIND include:
