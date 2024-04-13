@@ -31,7 +31,7 @@ RAGE, or Retrieval Augmented Generative Engine, is a sophisticated AI framework 
 
 - **Overview**: The aGLM is integral to RAGE's learning capabilities. It focuses on autonomously updating and refining the system's knowledge base from the continuous stream of retrieved data.
 - **Functionality**: aGLM dynamically integrates real-time data into RAGE’s learning processes, allowing the system to adapt its responses based on new information and evolving contexts. This model ensures that RAGE's responses remain relevant over time, enhancing the system's overall intelligence and efficiency.
-- **Reference**: Further information on aGLM can be found at [aGLM on GitHub](https://github.com/pythaiml/automindx).
+- **Reference**: Further information on aGLM can be found at [automindx](https://github.com/pythaiml/automindx) the first working example of aGLM as a parser of memory for LLM.
 
 **RAGE Retrieval System**
 
@@ -168,7 +168,7 @@ For more information about <a href="https://www.together.ai/">together.ai</a> an
 
 ### Appendix E: Links
 aGLM as Autonomous General Learning Model has been inspired by <a href="https://github.com/kkondo1981/aglm">Accurate Generalized Linear Model</a> 1981 https://cran.r-project.org/web/packages/aglm/aglm.pdf<br />
-aGLM integration with pinescipt for financial analysis https://bankon.gitbook.io/aglm-investor/aglm<br />
+aGLM integration with pinescipt for financial analysis <a href="https://bankon.gitbook.io/aglm-investor/aglm">https://bankon.gitbook.io/aglm-investor/aglm</a><br />
 <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7675060345879017836756807061815685501584179421371855056758523054876166031008">aGLM NFT</a>
 
 
