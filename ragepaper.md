@@ -19,17 +19,6 @@ This whitepaper aims to detail the capabilities and applications of the RAGE (Re
 ### What is RAGE?
 RAGE, or Retrieval Augmented Generative Engine, is a sophisticated AI framework that enhances the capabilities of generative models by integrating advanced retrieval techniques. This hybrid approach allows RAGE to access and analyze real-time information from extensive databases and online sources, ensuring the outputs are both accurate and contextually relevant. By combining real-time data retrieval with dynamic learning and adaptive response generation, RAGE sets a new standard in artificial intelligence applications.
 
-### Core Components
-- **MASTERMIND**: Manages workflow and reasoning within the AI system. For more details on MASTERMIND and its capabilities, visit [MASTERMIND on GitHub](https://github.com/mastermindml/mastermind).
-- **aGLM**: Focuses on dynamic, autonomous updates from retrieved data. Further information on aGLM can be found at [aGLM on GitHub](https://github.com/pythaiml/automindx).
-- **RAGE Retrieval System**: Enhances generative AI models with real-time data processing capabilities.
-
-### Chapter 2: Technology Overview
-
-#### What is RAGE?
-
-RAGE, or Retrieval Augmented Generative Engine, is a sophisticated AI framework that enhances the capabilities of generative models by integrating advanced retrieval techniques. This hybrid approach allows RAGE to access and analyze real-time information from extensive databases and online sources, ensuring the outputs are both accurate and contextually relevant. By combining real-time data retrieval with dynamic learning and adaptive response generation, RAGE sets a new standard in artificial intelligence applications.
-
 #### Core Components
 
 **MASTERMIND**
@@ -79,7 +68,9 @@ Dynamic learning is at the core of RAGE's design philosophy, enabling the system
 ### Intelligent Adaptation
 - **Context-Aware Responses**: By leveraging the continuously updated data and learning from past interactions, RAGE can understand and respond to nuances in user queries. This ability makes it particularly effective in scenarios where context heavily influences the nature of the response.
 - **Adaptive Response Generation**: As RAGE evolves, it becomes more adept at predicting user needs and adjusting its responses accordingly, ensuring high relevance and personalization.
-- **Predictive Capabilities**: With aGLM's learning capabilities, RAGE can anticipate user needs based on historical interaction data and broader contextual analysis. This predictive capability enables proactive responses, enhancing user engagement and satisfaction.
+- **Predictive Capabilities**: aGLM's learning capabilities enhanced by MASTERMIND preciction and strategy allows RAGE to anticipate user needs based on historical interaction data and broader contextual analysis. This predictive capability enables proactive responses, enhancing user engagement and satisfaction.
+- **Dynamic Learning**: the effective outcome of learning from real-time data creates a dynamic learning agent
+- **Machine Dreaming**: machine.dreaming is autotuning or automatic fine-tuning of memories from the database created by the dynamic learning. machine.dreaming will be faciliated by together.ai as an interative participant choice to train as a permanance with strategic training of datasets decided by the particpant.
 
 ## Conclusion
 RAGE, enhanced by the dynamic learning capabilities of aGLM, represents a significant step forward in the development of intelligent AI systems. This synergy not only improves the accuracy and relevance of responses but also enables the system to adapt over time, learning from each interaction to become increasingly sophisticated. As RAGE continues to evolve, it promises to redefine the possibilities of artificial intelligence, making it an invaluable asset across various sectors.
