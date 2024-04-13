@@ -162,9 +162,12 @@ For more information about Together.ai and its services, visit their official we
 
 
 ### Appendix D: Contact Information
-Details on how to reach the development team for queries and collaborations, including email addresses, social media handles, and phone numbers.
+<a href="https://discord.gg/X2umpGkZ2k">DEMI</a> discord server</a>
+<a href="https://x.com/aiosml">MASTERMIND</a> twitter
 
-aGLM as Autonomous General Learning Model has been inspired by https://cran.r-project.org/web/packages/aglm/aglm.pdf<br />
+
+### Appendix E: Links
+aGLM as Autonomous General Learning Model has been inspired by <a href="https://github.com/kkondo1981/aglm">Accurate Generalized Linear Model</a> 1981 https://cran.r-project.org/web/packages/aglm/aglm.pdf<br />
 aGLM integration with pinescipt for financial analysis https://bankon.gitbook.io/aglm-investor/aglm<br />
 <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7675060345879017836756807061815685501584179421371855056758523054876166031008">aGLM NFT</a>
 
