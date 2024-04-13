@@ -88,14 +88,14 @@ RAGE, enhanced by the dynamic learning capabilities of aGLM, represents a signif
 AGLM, or Autonomous General Learning Model, is a type of machine learning model that applies a combination of supervised and unsupervised learning techniques to discover patterns and insights from data. This model will be utilized across various data science applications including natural language processing, image recognition, and financial forecasting.
 
 **Capabilities and Applications of AGLM:**
-- **Data Processing**: AGLM is capable of processing large volumes of data quickly, making it a preferred starting point for developing more complex models. It can efficiently handle data from multiple sources such as text, images, audio, and video.
+- **Data Processing**: aGLM will be capable of processing large volumes of data quickly, making it a preferred starting point for developing more complex models. It will efficiently handle data from multiple sources such as text, images, audio, and video from it's point of departure as a text based inference.
 - **Simultaneous Multi-source Analysis**: The ability to analyze data from multiple sources simultaneously allows AGLM to generate more sophisticated insights, enhancing its applicability in complex data environments.
 - **Self-Learning and Adaptation**: AGLM learns from its own experiences, enabling it to become increasingly efficient over time. This self-learning capability supports continuous improvement in its analytical performance.
 - **Predictive Analytics**: The model can make predictions based on past data, identifying patterns and correlations that inform more accurate future forecasts.
 - **Reinforcement Learning**: Incorporating reinforcement learning techniques, AGLM continuously improves by being exposed to new data and feedback, which enhances its accuracy and efficiency.
 
 **Industry Applications:**
-AGLM's versatility and powerful processing capabilities have led to its wide application in various industries. Its ability to swiftly process and analyze complex datasets makes it invaluable for gaining deep insights in fields ranging from healthcare to financial services, and from retail to autonomous driving technologies.
+AGLM's versatility and powerful processing capabilities will lead to wide application in various industries. Its ability to swiftly process and analyze complex datasets makes it invaluable for gaining deep insights in fields ranging from healthcare to financial services, and from retail to autonomous driving technologies.
 
 ### Appendix C: References
 List of scholarly articles, technical documents, and other resources cited in the whitepaper.
