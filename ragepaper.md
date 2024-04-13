@@ -103,8 +103,9 @@ List of scholarly articles, technical documents, and other resources cited in th
 ### Appendix D: Contact Information
 Details on how to reach the development team for queries and collaborations, including email addresses, social media handles, and phone numbers.
 
-aGLM as Autonomous General Learning Model has been inspired by https://cran.r-project.org/web/packages/aglm/aglm.pdf
-aGLM integration with pinescipt for financial analysis https://bankon.gitbook.io/aglm-investor/aglm
+aGLM as Autonomous General Learning Model has been inspired by https://cran.r-project.org/web/packages/aglm/aglm.pdf<br />
+aGLM integration with pinescipt for financial analysis https://bankon.gitbook.io/aglm-investor/aglm<br />
+<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7675060345879017836756807061815685501584179421371855056758523054876166031008">aGLM NFT</a>
 
 
 ###################################################################
