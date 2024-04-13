@@ -31,7 +31,7 @@ RAGE, or Retrieval Augmented Generative Engine, is a sophisticated AI framework 
 
 - **Overview**: The aGLM is integral to RAGE's learning capabilities. It focuses on autonomously updating and refining the system's knowledge base from the continuous stream of retrieved data.
 - **Functionality**: aGLM dynamically integrates real-time data into RAGE’s learning processes, allowing the system to adapt its responses based on new information and evolving contexts. This model ensures that RAGE's responses remain relevant over time, enhancing the system's overall intelligence and efficiency.
-- **Reference**: Further information on aGLM can be found at [automindx](https://github.com/pythaiml/automindx) the first working example of aGLM as a parser of memory for LLM.
+- **Reference**: Further information on aGLM as code integration can be found at [automindx](https://github.com/pythaiml/automindx) the first working example of <a href="https://github.com/pythaiml/automindx/blob/main/algm.md">aGLM</a> as a parser of memory for LLM.
 
 **RAGE Retrieval System**
 
