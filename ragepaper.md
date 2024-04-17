@@ -263,7 +263,8 @@ For more information about <a href="https://www.together.ai/">together.ai</a> an
 <a href="https://x.com/aiosml">MASTERMIND</a> twitter
 
 
-### Appendix E: Links
+### Appendix E: Links<br />
+<a href="https://arxiv.org/abs/2005.11401v4">RAG</a> proposal<br />
 aGLM as Autonomous General Learning Model has been inspired by <a href="https://github.com/kkondo1981/aglm">Accurate Generalized Linear Model</a> 1981 https://cran.r-project.org/web/packages/aglm/aglm.pdf<br />
 aGLM integration with pinescipt for financial analysis <a href="https://bankon.gitbook.io/aglm-investor/aglm">https://bankon.gitbook.io/aglm-investor/aglm</a><br />
-<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7675060345879017836756807061815685501584179421371855056758523054876166031008">aGLM</a>
+<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7675060345879017836756807061815685501584179421371855056758523054876166031008">aGLM</a> NFT
