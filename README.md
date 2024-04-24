@@ -45,7 +45,7 @@ RAGE is designed for a broad range of applications including but not limited to:
 To integrate RAGE into your projects, clone this repository and follow the setup instructions detailed in our documentation. RAGE requires configuration for data sources and integration with your existing LLM setups.
 
 ```bash
-git clone https://github.com/RAGE.git
-cd RAGE
+git clone https://github.com/GATERAGE/RAGE/blob/main/ragepaper.md
+
 # Follow setup instructions
 
