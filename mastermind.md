@@ -39,4 +39,45 @@ MASTERMIND is designed for complex AI applications where multiple modules must w
 
 MASTERMIND represents a significant advancement in AI control systems, providing a sophisticated platform for orchestrating complex interactions between various AI modules. Its comprehensive functionality, from initialization to dynamic learning, ensures that AI systems can operate effectively, adaptively, and intelligently, making it an indispensable tool for advanced AI applications.
 
+MASTERMIND Integration includes:
+
+MASTERMIND.py: Orchestrates the interaction between various components and manages the overall workflow.
+
+    Functionality:
+        Initializes the system and sets up the environment.
+        Coordinates between modules including prediction, reasoning, and logic to process data and execute tasks.
+        Manages state and ensures the consistency of operations across the system.
+
+Modules:
+
+    prediction.py:
+        Forecasts future states or outcomes based on historical data and predictive models.
+
+    nonmonotonic.py:
+        Implements non-monotonic reasoning to adapt beliefs and knowledge bases with new, contradicting information.
+
+    socratic.py:
+        Facilitates question-and-answer style learning or problem-solving.
+
+    reasoning.py:
+        Provides infrastructure for various types of reasoning, including deductive, inductive, and abductive reasoning.
+
+    logic.py:
+        Implements formal logic systems and operations for reasoning and decision-making processes.
+
+    epistemic.py:
+        Manages the knowledge and beliefs within the system.
+
+    autonomize.py:
+        Enhances the autonomy of agents or components, allowing for self-directed operation and decision-making.
+
+    bdi.py:
+        Implements the Beliefs, Desires, Intentions (BDI) agent framework, modeling the cognitive structure of agents.
+
+    terminai.py: Separates OpenAI API interaction from the assistant into command-mode, adding API keys to .env on first run and creating a standalone test file.
+
+    SimpleCoder.py: Provides coding aids, templates, and functions to simplify development tasks.
+
+config.json: Offers the default allowed agency for MASTERMIND.
+
 For more information interact with <a href="https://chatgpt.com/g/g-NO8ax8aMU-mastermind">MASTERMIND GPT4</a> and the associated <a href="https://github.com/mastermindML/">mastermindML</a> github repository.
