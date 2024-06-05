@@ -80,4 +80,48 @@ Modules:
 
 config.json: Offers the default allowed agency for MASTERMIND.
 
+```typescript
+          +-------------------+
+          |    MASTERMIND     |
+          +-------------------+
+                   |
+      +------------+------------+
+      |                         |
++-----+-----+             +-----+-----+
+| Autonomize |            | SimpleCoder|
++-----+-----+             +-----+-----+
+      |                         |
++-----+-----+             +-----+-----+
+| NonMonotonic |          | Prediction |
+| Reasoning    |          | Model      |
++-----+-----+             +-----+-----+
+      |                         |
++-----+-----+             +-----+-----+
+| Logical     |           | Epistemic  |
+| Reasoning   |           | Logic      |
++-----+-----+             +-----+-----+
+      |                         |
++-----+-----+             +-----+-----+
+|    BDI     |            |  General   |
+|   Model    |            |   Logic    |
++-----+-----+             +-----+-----+
+      |                         |
+      +-------------------------+
+                |
+          +-----+-----+
+          | Socratic  |
+          | Questioning|
+          +-----+-----+
+                |
+          +-----+-----+
+          | Orchestration|
+          |   Logic     |
+          +-----+-----+
+                |
+          +-----+-----+
+          |  Main Entry|
+          |   Point    |
+          +------------+
+```
+
 For more information interact with <a href="https://chatgpt.com/g/g-NO8ax8aMU-mastermind">MASTERMIND GPT4</a> and the associated <a href="https://github.com/mastermindML/">mastermindML</a> github repository.
