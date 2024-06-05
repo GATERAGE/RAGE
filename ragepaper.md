@@ -42,16 +42,62 @@ RAGE, or Retrieval Augmented Generative Engine, is a sophisticated AI framework 
 This chapter outlines the technological foundations of RAGE, highlighting how its core components—MASTERMIND, aGLM, and the RAGE Retrieval System—work together to create a dynamic, intelligent, and responsive AI system. By leveraging these advanced technologies, RAGE addresses key challenges in AI applications, offering solutions that are both innovative and effective.
 
 
-## Chapter 3: Architecture
+## Chapter 3: System Architecture
 
-### System Architecture
-Describes how RAGE integrates with MASTERMIND and aGLM, supported by diagrams.
+The architecture of the RAGE system is designed to integrate seamlessly with MASTERMIND and the Autonomous General Learning Model (aGLM), creating a cohesive and efficient AI framework. Below, we describe the integration and interaction between these components, supported by diagrams to illustrate the system's structure.
+Overview
 
-### Data Flow
-Details the data acquisition, processing, and utilization within the system.
+    RAGE (Retrieval Augmented Generative Engine)
+        Function: Acts as the retrieval and augmentation framework, fetching real-time data from extensive databases and the internet.
+        Components: Data Retrieval Module, Data Preprocessing Module, Embedding Module, Vector Store Management.
 
-### Integration Points
-Discusses interaction with external systems and APIs.
+    aGLM (Autonomous General Learning Model)
+        Function: Serves as the core learning model, capable of autonomous data parsing and continuous learning from interactions and data retrievals.
+        Components: Learning Engine, Knowledge Base, Interaction Handler, Feedback Processor.
+
+    MASTERMIND
+        Function: Orchestrates the interaction between RAGE and aGLM, managing the overall workflow and ensuring the consistency of operations.
+        Components: Coordination Module, Prediction Engine, Reasoning Module, Non-Monotonic Reasoning, Logic and Epistemic Management, Autonomize Framework, BDI Agent Framework.
+
+        ```csharp
+        +------------------------------------------------------+
+|                    MASTERMIND                        |
+|  +-----------------------------------------------+   |
+|  |  Coordination Module                         |   |
+|  |  Prediction Engine                           |   |
+|  |  Reasoning Module                            |   |
+|  |  Non-Monotonic Reasoning                     |   |
+|  |  Logic and Epistemic Management              |   |
+|  |  Autonomize Framework                        |   |
+|  |  BDI Agent Framework                         |   |
+|  +-----------------------------------------------+   |
++---------------------|-------------------------------+
+                      |
+                      v
++------------------------------------------------------+
+|                        aGLM                          |
+|  +-----------------------------------------------+   |
+|  |  Learning Engine                             |   |
+|  |  Knowledge Base                              |   |
+|  |  Interaction Handler                         |   |
+|  |  Feedback Processor                          |   |
+|  +-----------------------------------------------+   |
++---------------------|-------------------------------+
+                      |
+                      v
++------------------------------------------------------+
+|                        RAGE                          |
+|  +-----------------------------------------------+   |
+|  |  Data Retrieval Module                       |   |
+|  |  Data Preprocessing Module                   |   |
+|  |  Embedding Module                            |   |
+|  |  Vector Store Management                     |   |
+|  +-----------------------------------------------+   |
++------------------------------------------------------+
+```
+
+
+        
 
 ## Chapter 4: Dynamic Learning as Intelligent Adaptation
 
