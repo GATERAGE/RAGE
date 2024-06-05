@@ -124,4 +124,10 @@ config.json: Offers the default allowed agency for MASTERMIND.
           +------------+
 ```
 
+MASTERMIND: The central controller orchestrating the entire system.
+Modules: Each functional module (Autonomize, SimpleCoder, NonMonotonic Reasoning, Prediction Model, Logical Reasoning, Epistemic Logic, BDI Model, General Logic, Socratic Questioning) provides specific capabilities.
+Integration: The modules are integrated to form a cohesive system, managed by MASTERMIND.
+Orchestration Logic: Ensures smooth communication and functionality between modules.
+Main Entry Point: The main function that initializes the system and starts the orchestration process.
+
 For more information interact with <a href="https://chatgpt.com/g/g-NO8ax8aMU-mastermind">MASTERMIND GPT4</a> and the associated <a href="https://github.com/mastermindML/">mastermindML</a> github repository.
