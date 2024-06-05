@@ -59,16 +59,22 @@ Overview
         Function: Orchestrates the interaction between RAGE and aGLM, managing the overall workflow and ensuring the consistency of operations.
         Components: Coordination Module, Prediction Engine, Reasoning Module, Non-Monotonic Reasoning, Logic and Epistemic Management, Autonomize Framework, BDI Agent Framework.
 
-        graph TD;
-    DataSources-->DataRetrieval;
-    DataRetrieval-->DataPreprocessing;
-    DataPreprocessing-->EmbeddingModule;
-    EmbeddingModule-->VectorStore;
-    VectorStore-->aGLM;
+```plaintext
++---------------------+       +---------------------+       +---------------------+       +---------------------+
+|  External Data      |       |  Vectara Platform   |       |  Feedback Systems   |       |  Security Tools     |
+|  Sources (APIs)     |       |  (Data Processing   |       |  (Learning &        |       |  (Compliance)       |
+|                     |       |  & Embedding)       |       |  Adaptation)        |       |                     |
++---------------------+       +---------------------+       +---------------------+       +---------------------+
+         |                                 |                             |                             |
+         v                                 v                             v                             v
++---------------------+       +---------------------+       +---------------------+       +---------------------+
+|  Data Retrieval     |       |  Embedding Module   |       |  Feedback Processor |       |  Security Protocols |
+|  Module (RAGE)      |       |  (RAGE)             |       |  (aGLM)             |       |  (RAGE & aGLM)       |
++---------------------+       +---------------------+       +---------------------+       +---------------------+
 
 
         
-        +------------------------------------------------------+
++------------------------------------------------------+
 |                    MASTERMIND                        |
 |  +-----------------------------------------------+   |
 |  |  Coordination Module                         |   |
@@ -102,6 +108,8 @@ Overview
 |  |  Vector Store Management                     |   |
 |  +-----------------------------------------------+   |
 +------------------------------------------------------+
+
+```
 
 
         
