@@ -59,7 +59,7 @@ Overview
         Function: Orchestrates the interaction between RAGE and aGLM, managing the overall workflow and ensuring the consistency of operations.
         Components: Coordination Module, Prediction Engine, Reasoning Module, Non-Monotonic Reasoning, Logic and Epistemic Management, Autonomize Framework, BDI Agent Framework.
 
-        ```bash
+        
         +------------------------------------------------------+
 |                    MASTERMIND                        |
 |  +-----------------------------------------------+   |
@@ -94,7 +94,6 @@ Overview
 |  |  Vector Store Management                     |   |
 |  +-----------------------------------------------+   |
 +------------------------------------------------------+
-```
 
 
         
