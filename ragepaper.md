@@ -1,7 +1,7 @@
 # RAGE Whitepaper: Retrieval Augmented Generative Engine
 
 ## Executive Summary
-RAGE (Retrieval Augmented Generative Engine) represents a transformative advancement in augmented intelligence machine learning, integrating state-of-the-art retrieval mechanisms with advanced generative models to offer unparalleled accuracy, relevance, and adaptability. This whitepaper explores RAGE's architecture, functionalities, and the significant advantages it brings to AI-driven applications, highlighting its synergistic integration with MASTERMIND and <a href="https://github.com/pythaiml/automindx/tree/main">aGLM</a> (Autonomous General Learning Model). The Autonomous General Learning Model is loosely based on the original work on AGLM found at <a href="https://github.com/kkondo1981/aglm">https://github.com/kkondo1981/aglm</a>
+RAGE (Retrieval Augmented Generative Engine) represents a transformative advancement in augmented intelligence machine learning, integrating state-of-the-art retrieval mechanisms with advanced generative models to offer unparalleled accuracy, relevance, and adaptability. This whitepaper explores RAGE's architecture, functionalities, and the significant advantages it brings to AI-driven applications, highlighting its synergistic integration with MASTERMIND and <a href="https://github.com/pythaiml/automindx/tree/main">aGLM</a> (Autonomous General Learning Model). The Autonomous General Learning Model is loosely based on the original work on AGLM found at <a href="https://github.com/kkondo1981/aglm">Accurate Generalized Linear Model (AGLM)</a>
 
 ## Chapter 1: Introduction
 
