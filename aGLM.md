@@ -26,4 +26,4 @@ Evaluation and Metrics
     Integration: Evaluate the seamless integration of RAGE and aGLM.
     User Satisfaction: Feedback from users to gauge satisfaction and areas for improvement.
 
-This framework enables the construction of a sophisticated AI system capable of intelligent, real-time responses and self-improvement, setting new standards in AI applications.
+This framework enables the construction of a sophisticated AI system capable of intelligent, real-time responses and self-improvement, setting new standards in AI applications. The original <a href="https://github.com/pythaiml/automindx/blob/main/algm.md">aGLM</a> script is found in the <a href="https://github.com/pythaiml/automindx/tree/main">automindx</a> repository as a component of <a href="https://github.com/Professor-Codephreak/</a>
