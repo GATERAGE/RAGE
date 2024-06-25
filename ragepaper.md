@@ -267,12 +267,12 @@ Machine dreaming is an advanced machine learning process where aGLM autonomously
 The future vision of the RAGE (Retrieval Augmented Generative Engine) framework involves an ambitious integration with funAGI (fundamentalAGI) to enhance its capabilities. By expanding funAGI into EasyAGI, we create a system that leverages advanced reasoning, memory management, and dynamic learning to further augment RAGE's generative abilities.
 # Overview of funAGI and EasyAGI
 
-funAGI fundamental AGI framework is designed to perform advanced autonomous reasoning and decision-making using structured premises and conclusions. This is achieved through various modules including Socratic reasoning, logic tables, memory management, and interaction handlers. By evolving funAGI into EasyAGI, we aim to create a more accessible and scalable AGI platform that can seamlessly integrate with RAGE.
+funAGI fundamental AGI framework is designed to perform advanced autonomous reasoning and decision-making using structured premises and conclusions. This is achieved through various modules including Socratic reasoning, logic tables, memory management, and interaction handlers. By evolving from funAGI into easyAGI, we aim to create a more accessible and scalable AGI platform that can seamlessly integrate with RAGE as a coherent participant experience.
 
 # Components and Integration
 
 Socratic Reasoning:
-Socratic Reasoning within EasyAGI will be responsible for drawing logical conclusions from provided premises. This will enhance RAGE’s decision-making capabilities by allowing it to reason through complex queries.
+Socratic Reasoning within easyAGI is responsible for drawing logical conclusions from provided premises. This will enhance RAGE’s decision-making capabilities by allowing it to reason through complex queries.
 
 Memory Management:
 Memory modules such as STM (Short-Term Memory), LTM (Long-Term Memory), and episodic memory will enable RAGE to store and retrieve contextual information efficiently. This integration ensures that the system can maintain continuity across interactions and improve over time through learned experiences.
@@ -430,7 +430,6 @@ Vectara's solutions are designed to improve the efficiency and effectiveness of 
 <a href="https://www.together.ai/">together.ai</a> is a powerful tool for any organization looking to harness the power of AI. By providing comprehensive tools for collaboration, development, and management, <a href="https://www.together.ai/">together.ai</a> not only simplifies the AI development process but also enhances the capabilities of AI applications, making them more effective and easier to integrate into existing systems.
 
 For more information about <a href="https://www.together.ai/">together.ai</a> and its services, visit <a href="https://www.together.ai/">together.ai</a>.
-
 
 
 ### Appendix D: Contact Information
