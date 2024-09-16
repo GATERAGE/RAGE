@@ -42,7 +42,10 @@ RAGE is designed for a broad range of applications including but not limited to:
 
 ## Getting Started
 
-To integrate RAGE into your projects, clone this repository and follow the setup instructions detailed in our documentation. RAGE requires configuration for data sources and integration with your existing LLM setups.
+To integrate RAGE into your projects, clone this repository and follow the setup instructions detailed in our documentation. RAGE requires configuration for data sources and integration with your existing LLM setups.<br />
+
+# design goals
+ultimately RAGE becomes a component of <a href="https://github.com/easyAGI">easyAGI</a> using <a href="https://github.com/mastermindML">MASTERMIND</a> orchestration to create agency for <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7675060345879017836756807061815685501584179421371855056758523065871282208769">AUTOMINDx</a> to create a truly autonomous General Learning Model <a href="https://opensea.io/collection/aglm">aGLM</a>
 
 ```bash
 git clone https://github.com/gaterage/aglm
