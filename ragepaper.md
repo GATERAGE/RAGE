@@ -45,21 +45,22 @@ This chapter outlines the technological foundations of RAGE, highlighting how it
 ## Chapter 3: System Architecture
 
 The architecture of the RAGE system is designed to integrate seamlessly with MASTERMIND and the Autonomous General Learning Model (<a href="https://github.com/pythaiml/automindx/blob/main/algm.md">aGLM</a>), creating a cohesive and efficient AI framework. Below, we describe the integration and interaction between these components, supported by diagrams to illustrate the system's structure.
-Overview
 
-    RAGE (Retrieval Augmented Generative Engine)
+RAGE (Retrieval Augmented Generative Engine)
         Function: Acts as the retrieval and augmentation framework, fetching real-time data from extensive databases and the internet.
         Components: Data Retrieval Module, Data Preprocessing Module, Embedding Module, Vector Store Management.
 
-    <a href="https://github.com/gaterage/aglm">aGLM</a> (Autonomous General Learning Model)
+<a href="https://github.com/gaterage/aglm">aGLM</a> (Autonomous General Learning Model)
         Function: Serves as the core learning model, capable of autonomous data parsing and continuous learning from interactions and data retrievals.
         Components: Learning Engine, Knowledge Base, Interaction Handler, Feedback Processor.
 
-    MASTERMIND
-        Function: Orchestrates the interaction between RAGE and aGLM, managing the overall workflow and ensuring the consistency of operations.
-        Components: Coordination Module, Prediction Engine, Reasoning Module, Non-Monotonic Reasoning, Logic and Epistemic Management, Autonomize Framework, BDI Agent Framework.
+# MASTERMIND
+        
+Function: Orchestrates the interaction between RAGE and aGLM, managing the overall workflow and ensuring the consistency of operations.
+        
+Components: Coordination Module, Prediction Engine, Reasoning Module, Non-Monotonic Reasoning, Logic and Epistemic Management, Autonomize Framework, BDI Agent Framework.
 
-```plaintext
+```txt
 +---------------------+       +---------------------+       +---------------------+       +---------------------+
 |  External Data      |       |  Vectara Platform   |       |  Feedback Systems   |       |  Security Tools     |
 |  Sources (APIs)     |       |  (Data Processing   |       |  (Learning &        |       |  (Compliance)       |
