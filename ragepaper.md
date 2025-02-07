@@ -265,25 +265,24 @@ Machine dreaming is an advanced machine learning process where aGLM autonomously
 # Integrating funAGI with RAGE through EasyAGI and RAGE
 
 The future vision of the RAGE (Retrieval Augmented Generative Engine) framework involves an ambitious integration with funAGI (fundamentalAGI) to enhance its capabilities. By expanding funAGI into EasyAGI, we create a system that leverages advanced reasoning, memory management, and dynamic learning to further augment RAGE's generative abilities.
-# Overview of funAGI and EasyAGI
 
-funAGI fundamental AGI framework is designed to perform advanced autonomous reasoning and decision-making using structured premises and conclusions. This is achieved through various modules including Socratic reasoning, logic tables, memory management, and interaction handlers. By evolving from funAGI into easyAGI, we aim to create a more accessible and scalable AGI platform that can seamlessly integrate with RAGE as a coherent participant experience.
+<a href="https://github.com/pythaiml/funAGI">funAGI</a> fundamental AGI framework is designed to perform advanced autonomous reasoning and decision-making using structured premises and conclusions. This is achieved through various modules including Socratic reasoning, logic tables, memory management, and interaction handlers. By evolving from funAGI into easyAGI, we aim to create a more accessible and scalable AGI platform that can seamlessly integrate with RAGE as a coherent participant experience.
 
 # Components and Integration
 
-Socratic Reasoning:
+<a href="https://github.com/easyAGI/ezAGI/tree/main/automind">Socratic Reasoning:</a>
 Socratic Reasoning within easyAGI is responsible for drawing logical conclusions from provided premises. This will enhance RAGE’s decision-making capabilities by allowing it to reason through complex queries.
 
-Memory Management:
+<a href="https://github.com/easyAGI/ezAGI/tree/main/memory">Memory Management:</a>
 Memory modules such as STM (Short-Term Memory), LTM (Long-Term Memory), and episodic memory will enable RAGE to store and retrieve contextual information efficiently. This integration ensures that the system can maintain continuity across interactions and improve over time through learned experiences.
 
-Logic Tables:
+<a href="https://github.com/easyAGI/ezAGI/blob/main/automind/logic.py">Logic Tables</a>
 Logic tables will be used to evaluate and validate expressions, ensuring that the conclusions drawn by the system are logically sound. This capability will be crucial for applications requiring high levels of accuracy and consistency.
 
-API Management:
+<a href="https://github.com/easyAGI/ezAGI/blob/main/webmind/api.py">API Management:</a>
 API integration will allow EasyAGI to access various external services and datasets, enabling it to enhance its knowledge base and adapt to new information dynamically.
 
-Chatter Models:
+<a href="https://github.com/AIMLdr/drAIML/blob/main/chatter.py">Chatter</a> Models:
 Chatter models like GPT-4o and Groq will facilitate natural language understanding and response generation, making interactions with RAGE more intuitive and effective.
 Integrating EasyAGI with RAGE
 
