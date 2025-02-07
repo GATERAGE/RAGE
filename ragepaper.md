@@ -9,10 +9,10 @@ RAGE (Retrieval Augmented Generative Engine) represents a transformative advance
 The evolution of artificial intelligence from static models to dynamic, adaptive systems marks a pivotal shift in technology's ability to interact with and understand the world. Traditional AI systems, reliant on static datasets, often fail to incorporate new information dynamically and struggle to provide contextually relevant responses in real-time scenarios. As a response to these limitations, the development of systems that can learn and adapt in real time has become crucial.
 
 ### Need for RAGE
-Current AI applications face significant challenges in maintaining relevance and accuracy due to the rapid pace at which data and world events unfold. Traditional models lack the capability to update their knowledge bases without extensive retraining phases, which are not only time-consuming but also resource-intensive. There is a critical need for a system that can integrate continuous data flow and adapt its responses accordingly, ensuring both relevance and timeliness. This necessity is particularly acute in fields like finance, healthcare, and customer service, where real-time information can significantly impact outcomes.
+Current AI applications face significant challenges in maintaining relevance and accuracy due to the rapid pace at which data and world events unfold. Traditional models lack the capability to update their knowledge bases without extensive retraining phases, which are not only time-consuming but also resource-intensive. There is a critical need for a system that can integrate continuous data flow with dyanamic reasoning as a feedback loop.  This necessity is particularly acute in the financal, healthcare, and customer service fields where real-time information significantly impacts outcome as reward.
 
 ### Purpose of this Whitepaper
-This whitepaper aims to detail the capabilities and applications of the RAGE (Retrieval Augmented Generative Engine) framework and to demonstrate its impact across various industries. By integrating advanced retrieval techniques with dynamic learning systems, RAGE represents a significant advancement in AI technology. The document will explore how RAGE synergizes with components like MASTERMIND and aGLM (Autonomous General Learning Model) to create a highly adaptive and intelligent system. The purpose of this exploration is to illustrate the transformative potential of RAGE and its capacity to redefine industry standards through enhanced AI applications.
+RAGE whitepaper aims to detail the capabilities and applications of the RAGE (Retrieval Augmented Generative Engine) framework and to demonstrate its impact across various industries. By integrating advanced retrieval techniques with dynamic learning systems, RAGE represents a significant advancement in AI technology. The document will explore how RAGE synergizes with components including MASTERMIND and aGLM (Autonomous General Learning Model) creating a highly adaptive and intelligent systems architecture. The purpose of this exploration is to illustrate the transformative potential of RAGE and its capacity to redefine industry standards through enhanced AIML applications.
 
 ## Chapter 2: Technology Overview
 
@@ -44,7 +44,7 @@ This chapter outlines the technological foundations of RAGE, highlighting how it
 
 ## Chapter 3: System Architecture
 
-The architecture of the RAGE system is designed to integrate seamlessly with MASTERMIND and the Autonomous General Learning Model (aGLM), creating a cohesive and efficient AI framework. Below, we describe the integration and interaction between these components, supported by diagrams to illustrate the system's structure.
+The architecture of the RAGE system is designed to integrate seamlessly with MASTERMIND and the Autonomous General Learning Model (<a href="https://github.com/pythaiml/automindx/blob/main/algm.md">aGLM</a>), creating a cohesive and efficient AI framework. Below, we describe the integration and interaction between these components, supported by diagrams to illustrate the system's structure.
 Overview
 
     RAGE (Retrieval Augmented Generative Engine)
