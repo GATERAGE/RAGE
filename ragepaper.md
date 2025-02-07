@@ -54,7 +54,7 @@ RAGE (Retrieval Augmented Generative Engine)
         Function: Serves as the core learning model, capable of autonomous data parsing and continuous learning from interactions and data retrievals.
         Components: Learning Engine, Knowledge Base, Interaction Handler, Feedback Processor.
 
-# MASTERMIND
+# <a href="https://github.com/mastermindML">MASTERMIND</a>
         
 Function: Orchestrates the interaction between RAGE and aGLM, managing the overall workflow and ensuring the consistency of operations.
         
