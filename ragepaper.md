@@ -391,7 +391,7 @@ Vectara is a company that specializes in providing advanced search and machine l
 Vectara’s technology is applicable in a variety of sectors where efficient and accurate search capabilities are essential. Some of the common applications include:
 
 - **E-commerce**: Enhancing product search capabilities to improve customer experience and drive sales.
-- **Healthcare**: Assisting medical professionals in quickly finding patient information, research papers, and case studies relevant to specific conditions or treatments.
+- **<a href="https://github.com/AIMLdr/drAIML">Healthcare</a>**: Assisting medical professionals in quickly finding patient inform">ation, research papers, and case studies relevant to specific conditions or treatments.
 - **Financial Services**: Enabling rapid retrieval of financial documents, reports, and market analysis, which is crucial for timely decision-making in fast-paced financial environments.
 - **Educational Platforms**: Improving the accessibility of educational materials through efficient search tools that help students and educators find relevant information and resources quickly.
 
