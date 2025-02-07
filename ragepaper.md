@@ -219,7 +219,7 @@ RAGE's design incorporates a modular architecture and cloud-based deployment, en
 
 ### Innovations on the Horizon
 
-**Enhanced Machine Learning Models**: Continuous research focuses on refining these models to enhance the intuitive nature and responsiveness of the system, making it more adept at addressing complex user needs across various applications.
+**<a href="https://github.com/GATERAGE/neuralnet">Enhanced Machine Learning Models</a>**: Continuous research focuses on refining these models to enhance the intuitive nature and responsiveness of the system, making it more adept at addressing complex user needs across various applications.
 
 **Improved Natural Language Understanding**: Advancements in natural language processing are expected to significantly improve RAGE's ability to understand and interpret human language, making interactions with the AI system feel more natural and human-like.
 
