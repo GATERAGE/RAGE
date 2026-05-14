@@ -1,0 +1,81 @@
+# SPDX-License-Identifier: Apache-2.0
+# (c) 2024-2026 GATERAGE — RAGE: Retrieval Augmented Generative Engine
+#
+# Standalone agnostic distribution of the RAGE engine.
+# Source code mirrored from `mindx_backend_service/rage/` in the
+# mindX (agenticplace) project — mindX is one consumer, not the only home.
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rage"
+version = "0.2.0"
+description = "Retrieval Augmented Generative Engine — composable retrieval substrate for grounding LLM calls in evidence."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "GATERAGE / Professor Codephreak" },
+]
+keywords = ["rag", "rage", "retrieval", "embeddings", "agentic", "memory", "llm", "vector-search", "agnostic"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+embeddings = [
+    "sentence-transformers>=2.6",
+    "faiss-cpu>=1.7",
+]
+pdf = ["PyPDF2>=3.0"]
+docx = ["python-docx>=1.0"]
+html = ["beautifulsoup4>=4.12"]
+server = [
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "python-multipart>=0.0.9",
+]
+all = [
+    "rage[embeddings]",
+    "rage[pdf]",
+    "rage[docx]",
+    "rage[html]",
+    "rage[server]",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/GATERAGE/RAGE"
+Documentation = "https://rage.pythai.net"
+Repository = "https://github.com/GATERAGE/RAGE"
+"mindX consumer" = "https://github.com/agenticplace"
+
+[tool.setuptools.packages.find]
+include = ["rage*"]
+exclude = ["tests*", "examples*", "docs*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100

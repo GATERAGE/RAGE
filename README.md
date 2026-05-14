@@ -48,3 +48,73 @@ To integrate RAGE into your projects, clone this repository and follow the setup
 ultimately RAGE becomes a component of <a href="https://github.com/easyAGI">easyAGI</a> using <a href="https://github.com/mastermindML">MASTERMIND</a> orchestration to create agency for <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7675060345879017836756807061815685501584179421371855056758523065871282208769">AUTOMINDx</a> to create a truly autonomous General Learning Model <a href="https://opensea.io/collection/aglm">aGLM</a><br />
 
 reference <a href="https://chatgpt.com/g/g-gNLDlpcAv-professor-codephreak">Professor Codephreak GPT4</a>
+
+---
+
+# Code release (2026-05-14)
+
+A standalone, agnostic, Apache-2.0 Python distribution of RAGE now lives in this repo, mirrored from `mindx_backend_service/rage/` in the [agenticplace mindX project](https://github.com/agenticplace) — mindX is **one consumer**, not the only home.
+
+## Install
+
+```bash
+# tag-based retrieval only (no ML deps)
+pip install .
+
+# with semantic retrieval (sentence-transformers + FAISS)
+pip install ".[embeddings]"
+
+# everything (PDF + DOCX + HTML + FastAPI server)
+pip install ".[all]"
+```
+
+## Quick use
+
+```python
+import asyncio
+from rage import IngestionEngine, IndexingEngine, RetrievalEngine, StorageEngine
+
+async def main():
+    storage   = StorageEngine()
+    indexing  = IndexingEngine(storage)
+    ingestion = IngestionEngine(storage, indexing)
+    retrieval = RetrievalEngine(storage, indexing)
+
+    await ingestion.ingest_file("README.md", tags=["docs"])
+    hits = await retrieval.retrieve_context("what is RAGE?", top_k=3)
+    for h in hits:
+        print(f"[{h['similarity']:.3f}] {h['metadata']['source_path']}")
+
+asyncio.run(main())
+```
+
+## Components
+
+| File | Engine | Responsibility |
+|---|---|---|
+| `rage/storage.py` | `StorageEngine` | Filesystem doc + metadata store |
+| `rage/indexing.py` | `IndexingEngine` | Sentence-transformers + FAISS vector search |
+| `rage/ingestion.py` | `IngestionEngine` | File extraction: txt, md, json, py, ts, html, pdf, docx |
+| `rage/retrieval.py` | `RetrievalEngine` | High-level context-retrieval API |
+
+## Documentation
+
+- **Service spec:** `docs/rage_as_a_service.md` — the canonical contract for what RAGE offers as a service.
+- **Substrate article:** [mindX is the first production platform to run RAGE on PostgreSQL ingestion](https://rage.pythai.net/?p=673) (rage.pythai.net) — why the loop matters at the data-layer level.
+- **Foundational papers (also in this repo):** `ragepaper.md`, `aGLM.md`, `mastermind.md`.
+
+## Tests
+
+```bash
+pip install ".[dev]"
+pytest -v
+```
+
+## Examples
+
+- `examples/quickstart.py` — 10-line walkthrough
+- `examples/server.py` — minimal FastAPI host (the shape mindX runs at `/rage/*`)
+
+## License
+
+Apache-2.0. (c) 2024-2026 GATERAGE / Professor Codephreak.
