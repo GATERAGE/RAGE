@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 """
-Quick-start example for RAGE.
+Quick-start example for RAGE
 
 Run:
     pip install -e ".[embeddings]"   # for semantic retrieval
@@ -29,13 +29,13 @@ async def main():
     ingestion = IngestionEngine(storage_engine=storage, indexing_engine=indexing)
     retrieval = RetrievalEngine(storage_engine=storage, indexing_engine=indexing)
 
-    # 2. Ingest the project's README (any local doc works).
+    # Ingest project README from localdocs
     readme = Path("README.md")
     if readme.exists():
         result = await ingestion.ingest_file(readme, tags=["readme"])
         print("ingest:", result)
 
-    # 3. Retrieve.
+    # Retrieve
     hits = await retrieval.retrieve_context("what is RAGE?", top_k=3)
     for h in hits:
         print(f"\n[{h['similarity']:.3f}] {h['metadata']['source_path']}")
